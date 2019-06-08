@@ -1,0 +1,54 @@
+.header{
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  background-color: grey;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#image{
+  width: 1000px;
+}
+ #img-caption {
+   color: grey;
+   font-size: 30px;
+   text-align: center;
+   padding-top: 0px;
+ }
+
+#img-div {
+  text-align: center;
+}
+
+#tribute-info {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.adjust{
+  text-align: justify;
+}
+
+#tribute-link{
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.quote{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: grey;
+  font-size: 20px;
+}
