@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <form class="form" action="form.html" method="post">
+      <h3>How much Gagetized are you?</h3>
+      <div class="subForm">
+        <table>
+          <th class="row">*Name<td class="rowColumn"><input type="text" name="name" placeholder="Enter your Name"></td></th>
+        </table>
+        <table>
+          <th class="row">*Email:<td class="rowColumn"><input type="email" name="email" placeholder="Enter your Email"></td></th>
+        </table>
+        <table>
+          <th class="row" style="padding:0px 10px 30px 50px">*Age:<td class="rowColumn"><input type="number" name="age" max="100" min="5" placeholder="Enter your Age"></td></th>
+        </table>
+        <table>
+          <th class="row" style="padding:10px 0px 30px 0px"><p style="margin: 10px 130px 0px 0px">Occupation</p><td class="rowColumn" style="padding-top: 20px"><select class="option1" name="occupation">
+                          <option>Student</option>
+                          <option>Service</option>
+                          <option>Bussiness</option>
+                          <option>Retired</option>
+                        </select></td></th>
+        </table>
+        <table>
+          <th class="row" style="padding-left: 0px"><p class="radio">Are you on Social Media ?</p><td class="rowColumn"><input type="radio" name="media" checked>Yes</td>
+        </table>
+        <table>
+          <th class="row"><td class="rowColumn" style="padding-left: 255px"><input type="radio" name="media" checked>No</td>
+        </table>
+        <table>
+          <th class="row"><p class="radio">What Platforms do you used ?</p><td class="rowColumn"><input type="checkbox" name="platform" checked>Smart Phone</td></th>
+        </table>
+        <table>
+          <th class="row"><td class="rowColumn" style="padding-left: 280px"><input type="checkbox" name="platform">Tablet</td></th>
+        </table>
+        <table>
+          <th class="row"><td class="rowColumn" style="padding-left: 300px"><input type="checkbox" name="platform">Desktop</td></th>
+        </table>
+        <table>
+          <th class="row"><td class="rowColumn" style="padding-left: 290px"><input type="checkbox" name="platform">Laptop</td></th>
+        </table>
+        <table>
+          <th class="row" style="padding:0px 50px 30px 0px">How much time do you spend on social media ?<td class="rowColumn"><select class="option1" name="timeSpan">
+            <option>0-2 hours</option>
+            <option>2-4 hours</option>
+            <option>4-8 hours</option>
+            <option>8-12 hours</option>
+            <option>12 and more hours</option>
+          </select></td></th>
+        </table>
+        <table>
+          <th class="row">Any comments or suggestion<td class="rowColumn"><textarea  id="comment" name="message" rows="1" cols="40"></textarea></td></th>
+        </table>
+        <div><input class="submit" type="submit" name="submit" value="Submit"></div>
+      </div>
+    </form>
+  </body>
+</html>

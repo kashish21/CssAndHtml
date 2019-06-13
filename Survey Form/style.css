@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: skyblue;
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.form{
+  text-align: center;
+  background: white;
+  padding: 20px 40px 20px 40px;
+  width: 800px;
+  transform: translateX(32%);
+  font-weight: 50;
+}
+
+.form h3{
+  background: white;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  font-weight: 50;
+  margin-left: 50px;
+}
+
+.row{
+  background: white;
+  font-weight: 50;
+  padding: 0px 0px 30px 50px;
+}
+
+.rowColumn{
+  background: white;
+  font-weight: 50;
+  padding: 0px 0px 30px 50px;
+}
+
+.subForm table{
+  margin: auto;
+}
+
+.rowColumn input[type = "text"], .rowColumn input[type = "email"]{
+  background: white;
+  border: 5;
+  text-align: left;
+  padding: 5px 10px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin: auto;
+}
+
+.rowColumn input[type = "number"]{
+  background: white;
+  border: 5;
+  text-align: left;
+  padding-left: 10px;
+  height: 22px;
+  width: 210px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin: auto;
+}
+
+.option1{
+  background: white;
+  font-weight: 50;
+}
+
+.radio{
+  font-weight: 50;
+  padding: 0px 70px 0px 0px;
+}
+
+.submit{
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 50;
+  font-family:  sans-serif;
+  padding: 8px 24px;
+  border-radius: 20px;
+  background: skyblue;
+  border: 0;
+}
